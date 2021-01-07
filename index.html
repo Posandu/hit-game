@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+
+
+
+
+<div class="me" id="me">
+
+	
+</div>
+<div class="bard" id="fd"></div>
+
+<div class="beast" id="beast">
+<div class="bullet">
+	
+
+</div>	
+</div>
+<div class="rain" style="animation-duration: 10s;"><div class="wheel"></div></div>
+<div class="rain" style="animation-delay: 1s;"></div>
+<div class="rain" style="animation-delay: 1.58s; left: 20%"></div>
+<div class="rain" style="animation-delay: 2s; left: 30%" ></div>
+<div class="rain" style="animation-delay: 2.55s; left: 40%"></div>
+<div class="rain" style="animation-delay: 3s; left: 50%"></div>
+<div class="rain" style="animation-delay: 3.554s; left: 60%"></div>
+<div class="rain" style="animation-delay: 4s; left: 70%"></div>
+<div class="rain" style="animation-delay: 4.54s; left: 80%"></div>
+<div class="rain" style="animation-delay: 5s; left: 90%"></div>
+<div class="rain" style="animation-delay: 5.55s; left: 100%"></div>
+<div class="rain" style="animation-delay: 6s; left: 103%"></div>
+<marquee><a href="https://www.tronic247.com" style="position: fixed;top: 90%;left: 45%;color: lightblue;background-color: black;font-family: consolas;text-decoration: none;text-decoration-style: bold;">Created By Posandu Mapa</a></marquee>
+
+
+<div class="cloud">
+	
+</div>
+
+
+<div>
+	<!DOCTYPE html>
+<html>
+<head>
+
+
+
+<script>
+function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getDate();
+  var s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('fd').innerHTML = <html><div class="bard" style="background-color: s !important"></div></html> ;
+  var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+  if (i < 10) {i = "0" + i };  // add zero in front of numbers < 10
+  return i;
+}
+
+var header = document.getElementById("me");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("bullet");
+  } else {
+    header.classList.remove("bullet");
+  }
+}
+</script>
+</head>
+
+<body onload="startTime()">
+
+<div id="txt" style="font-size: x-large; font-family: montserrat;position: fixed;
+  top: 90%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  text-align: center;color: white;transition-delay: 1s;"></div>
+
+</body>
+</html>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+
+
+	function myFunction() {
+   var element = document.body;
+   element.classList.toggle("m");
+   
+}
+
+
+function myFunction9() {
+   var element = document.body;
+   element.classList.toggle("ms");
+   
+}
+
+</script>
+
+
+<script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("me").style.top = scrolled/1.5 + "%"  ;
+}
+</script>
+
+<script>
+// When the user scrolls the page, execute myFunction
+window.onKeyUp = function() {myFunction2()};
+
+function myFunction2() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("beast").style.height = scrolled*1.5 + "%"  ;
+}
+</script>
+
+
+
+
+
+</body>
+</html>
